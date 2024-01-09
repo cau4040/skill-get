@@ -1,0 +1,63 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "comando_selecionado",
+              "type": "comando_selecionado"
+            }
+          ],
+          "name": "intencao_de_comando",
+          "samples": [
+            "{comando_selecionado}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "ar_on"
+              }
+            },
+            {
+              "name": {
+                "value": "temperatura"
+              }
+            },
+            {
+              "name": {
+                "value": "2612"
+              }
+            }
+          ],
+          "name": "comando_selecionado"
+        }
+      ],
+      "invocationName": "pergunte"
+    }
+  }
+}
