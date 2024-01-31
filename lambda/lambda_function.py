@@ -1,8 +1,8 @@
 #GET_Node-Red
 
-URL = "https://note.convergedigital.com.br/get"
-USUARIO = "carlos"
-SENHA = "261297"
+URL = "https://note.convergedi.com.br/get"
+USUARIO = "car"
+SENHA = "26"
 
 import requests
 import json
